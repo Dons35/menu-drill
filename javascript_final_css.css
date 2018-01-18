@@ -1,0 +1,75 @@
+html{
+  font-size:16px;
+}
+
+body{
+  background-color: hsl(32, 15%, 70%);
+}
+
+p{
+  font-size: 16px;
+}
+
+h1{
+  color:hsl(32, 15%, 15%);
+}
+
+#header-section{
+  text-align: center;
+  background-color: hsl(32, 15%, 50%);
+  border:2px solid hsl(32, 15%, 15%);
+}
+
+#menu-holder{
+  flex-flow:row wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-box{
+  text-align: center;
+  width:31%;
+  border:2px solid hsl(32, 15%, 15%);
+  margin-left:2px;
+  margin-top:2px;
+}
+
+form{
+  text-align: center;
+}
+
+#button-section{
+  text-align: center;
+  margin-top:2px;
+}
+
+input.button{
+  background-color:hsl(32, 15%, 50%);
+  width:10%;
+  height:2rem;
+  border:2px solid hsl(32, 15%, 15%);
+}
+
+.receipt-holder{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+#receipt-section{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  width:50%;
+}
+
+.receipt-box{
+  width:45%;
+}
+
+.receipt-box-bottom{
+  width:45%;
+  margin-top:2px;
+  display:flex;
+  align-items: center;
+}
